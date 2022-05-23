@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-sentinel" />
+        <module name="sentinel_demo" />
+        <module name="stock-nacos" />
+        <module name="order-openfeign" />
+        <module name="config-nacos" />
+        <module name="stock" />
+        <module name="product-nacos" />
+        <module name="order" />
+        <module name="order-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-nacos" options="" />
+      <module name="order" options="" />
+      <module name="sentinel_demo" options="-parameters" />
+      <module name="stock" options="" />
+    </option>
+  </component>
+</project>
